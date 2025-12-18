@@ -128,7 +128,7 @@ install_system_deps() {
             
         arch|manjaro)
             pacman -Syu --noconfirm
-            pacman -S --noconfirm wget curl jq cmake python xvfb-run chromium
+            pacman -S --noconfirm wget curl jq cmake python xorg-server-xvfb chromium
             print_info "Note: Install chromedriver from AUR if needed: yay -S chromedriver"
             ;;
             
